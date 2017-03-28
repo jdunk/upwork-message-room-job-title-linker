@@ -14,7 +14,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.upwork.com/messages/rooms/*"
+        "https://www.upwork.com/messages/*"
       ],
       "js": [
         "src/inject/messages-rooms.js"
