@@ -1,0 +1,24 @@
+{
+  "name": "Upwork Message Room Job Title Linker",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Link the Job Title in the Message Rooms to the job posting",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "https://www.upwork.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.upwork.com/messages/rooms/*"
+      ],
+      "js": [
+        "src/inject/messages-rooms.js"
+      ]
+    }
+  ]
+}
