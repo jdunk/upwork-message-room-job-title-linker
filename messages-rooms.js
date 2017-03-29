@@ -5,7 +5,7 @@ var pageEnvCode = '(' + function() {
       linkTheJobTitle();
     });
 
-    function linkTheJobTitle(href) {
+    function linkTheJobTitle() {
       var ngData = angular.element('.room-list-item.selected eo-room-presence-others').data();
       var roomData = ((ngData || {}).$eoRoomPresenceOthersController || {}).room;
 
