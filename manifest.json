@@ -17,7 +17,7 @@
         "https://www.upwork.com/messages/*"
       ],
       "js": [
-        "src/inject/messages-rooms.js"
+        "messages-rooms.js"
       ]
     }
   ]
